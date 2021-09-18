@@ -79,6 +79,7 @@ const Input = styled.input`
 function TodoCreate() {
   const [open, setOpen] = useState(false);
   const onToggle = () => setOpen(!open);
+
   return (
     <>
       {open && (

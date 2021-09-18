@@ -14,7 +14,7 @@ const initialTodos = [
   {
     id: 3,
     text: 'create context ',
-    done: false,
+    done: true,
   },
   {
     id: 4,
@@ -63,7 +63,7 @@ export function TodoProvider({ children }) {
 export function useTodoState() {
   const context = useContext(TodoStateContext);
   if (!context) {
-    throw new Error('Cannot find TodoProvider');
+    throw new Error('Cannot find TodoProvider: ' + context);
   }
   return context;
 }
@@ -71,7 +71,7 @@ export function useTodoState() {
 export function useTodoDispatch() {
   const context = useContext(TodoDispatchContext);
   if (!context) {
-    throw new Error('Cannot find TodoProvider');
+    throw new Error('Cannot find TodoProvider: ' + context);
   }
   return context;
 }
@@ -79,7 +79,7 @@ export function useTodoDispatch() {
 export function useTodoNextId() {
   const context = useContext(TodoNextIdContext);
   if (!context) {
-    throw new Error('Cannot find TodoProvider');
+    throw new Error('Cannot find TodoProvider: NextId' + context);
   }
   return context;
 }
