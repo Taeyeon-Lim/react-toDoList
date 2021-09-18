@@ -14,7 +14,7 @@ const initialTodos = [
   {
     id: 3,
     text: 'create context ',
-    done: true,
+    done: false,
   },
   {
     id: 4,
