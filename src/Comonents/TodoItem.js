@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import { MdDone, MdDelete } from 'react-icons/md';
 import styled, { css } from 'styled-components';
 import { useTodoDispatch } from './TodoContext';
@@ -89,4 +89,4 @@ function TodoItem({ id, done, text }) {
   );
 }
 
-export default react.memo(TodoItem);
+export default React.memo(TodoItem);

@@ -7,8 +7,14 @@
 - crea- create UI(Template)
 - use Context API 상태 관리
 
-<img src="https://user-images.githubusercontent.com/54977412/133735963-2186f12b-756b-4d0c-8744-0160a369f045.png" width="350" hegith="606"><img src="https://user-images.githubusercontent.com/54977412/133736046-e7c6b4b2-4768-45b0-9de9-aa58a7e0f3b1.png" width="350" hegith="606">
-
 ### Add Item remove /feature
 
 ### Add List checkOnOff /feature
+
+### todoList end
+
+- prevent.default()로 리스트 추가 시, 화면 새로고침 방지
+
+<img src="https://user-images.githubusercontent.com/54977412/133916437-a012a294-8523-40d8-bd13-4fd556c14a64.png" width="350" height="606">
+<img src="https://user-images.githubusercontent.com/54977412/133916401-52d51cc3-4297-4e36-9df5-c41e2257745d.png" width="350" height="606">
+<img src="https://user-images.githubusercontent.com/54977412/133916469-c5a9b027-426c-43ce-994c-6cd2ec83c499.png" width="350" height="606">
